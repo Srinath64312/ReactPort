@@ -14,7 +14,7 @@ import Prok from './pages/Prok';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ReactPort">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
